@@ -1,4 +1,4 @@
-# Boilerplate Jamstack Website Static Resources
+# Jamstack Website Static Resources
 
 Large static assets for the Jamstack website should be put in this repository.
 
@@ -6,7 +6,7 @@ Generally speaking, this repository should contain content such as images or PDF
 
 Smaller structural files, such as your CSS and JavaScript files, can stay with your dynamic site repository.
 
-## Usage
+# Usage
 
 1. Put the large content files for your Jamstack website in the [`content`](content) directory before deploying your latest post.
 2. The deployment CodePipeline will deploy all the files from this repository to the site S3 bucket when your latest post is deployed.
@@ -20,3 +20,7 @@ Smaller structural files, such as your CSS and JavaScript files, can stay with y
 The other option would be to deploy the resources from this repository manually to S3, but that does break the GitOps model a bit.
 
 ---
+
+# License
+
+This repository is released under [the MIT license](https://en.wikipedia.org/wiki/MIT_License).  View the [local license file](./LICENSE).
