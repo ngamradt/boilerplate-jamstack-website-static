@@ -30,7 +30,9 @@ Do not use this repository directly, the "Use this template" button should be ut
 
 ---
 
-**NOTE:** Since these files are being deployed via CodePipeline, the maximum artifact size is a 1GB ZIP file.  If you are reaching this limit, the S3 deployment process being used only adds and updates files, it also does a shallow clone from Git, so you could remove older files from the repository and they will not get removed from the S3 bucket.  So this would be a way to free up space and still use the CodePipeline deployment step.
+**NOTE**
+
+Since these files are being deployed via CodePipeline, the maximum artifact size is a 1GB ZIP file.  If you are reaching this limit, the S3 deployment process being used only adds and updates files, it also does a shallow clone from Git, so you could remove older files from the repository and they will not get removed from the S3 bucket.  So this would be a way to free up space and still use the CodePipeline deployment step.
 
 The other option would be to deploy the resources from this repository manually to S3, but that does break the GitOps model a bit.
 
