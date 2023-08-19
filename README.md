@@ -7,6 +7,11 @@ Generally speaking, this repository should contain content such as images or PDF
 Smaller structural files, such as your CSS and JavaScript files, can stay with your dynamic site repository (making development easier).
 
 ---
+**NOTE**
+
+Do not use this repository directly, the "Use this template" button should be utilized to create your own copy of this repository.  This will allow you to upload content specific to your website.  Though it is unlikely there will be enhancements to this repository, if there are, you can pull them in as needed.
+
+---
 
 ## Table of Contents
 
@@ -35,7 +40,7 @@ The other option would be to deploy the resources from this repository manually 
 
 This repository is part of a small group of repositories that are used together in order to deploy a simple 11ty Jamstack website.  Here is the list of related repositories:
 
-1. [Jamstack Website boilerplate](https://github.com/ngamradt/boilerplate-jamstack-website): This repository is the core repository that stitches everything together.  It houses the following components:
+1. [Jamstack Website Core](https://github.com/ngamradt/boilerplate-jamstack-website): This repository is the core repository that stitches everything together.  It houses the following components:
     - The main AWS CodePipeline that will deploy all infrastructure and the Jamstack website itself.
     - All needed CloudFormation templates to create the required infrastructure.
     - The 11ty liquid templates for the structure of the website.
